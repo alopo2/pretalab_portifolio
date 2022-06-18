@@ -143,6 +143,11 @@ ul li {
     align-items: center;
 }
 
+.links {
+    text-decoration: none;
+    color: white;
+}
+
 .lista-footer li {
     color: #FFF;
     font-weight: 700;
