@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Anek Latin, sans-serif;
     margin: 0;
 }
 
@@ -21,7 +23,8 @@ ul li {
     padding-bottom: 32px;
     padding-top: 32px;
     height: 60px;
-    background-color: #724796;
+    background-color: #d4a373;
+    border-radius: 5px;
 }
 
 .navegacao nav {
@@ -38,7 +41,7 @@ ul li {
 }
 
 .lista-menu li>a {
-    color: #FFF;
+    color: #faedcd;
     font-size: 18px;
     text-decoration: inherit;
 }
@@ -46,7 +49,7 @@ ul li {
 .principal {
     height: 100vh;
     display: flex;
-    background-color: #eaeaea;
+    background-color: #fefae0;
 }
 
 .container {
@@ -68,7 +71,7 @@ ul li {
 
 .nome-completo {
     font-size: 36px;
-    color: #ff4dbc;
+    color: #ccd5ae;
     font-weight: 700;
     height: 45px;
 }
@@ -76,7 +79,11 @@ ul li {
 .profissao {
     font-size: 20px;
     line-height: 32px;
-    color: #C6B5D5;
+    color: rgb(237, 193, 111);
+}
+
+.descricao-perfil {
+    font-size: 20px;
 }
 
 .article-lista {
@@ -88,7 +95,7 @@ ul li {
 
 .topico-principal {
     font-size: 36px;
-    color: #ff4dbc;
+    color: #ccd5ae;
 }
 
 .lista-item {
@@ -102,7 +109,7 @@ ul li {
 .lista-titulo {
     margin-bottom: 5px;
     font-size: 22px;
-    color: #661e4b;
+    color: rgb(237, 193, 111);
     font-weight: 700;
 }
 
@@ -120,7 +127,7 @@ ul li {
 }
 
 .wrapper-portfolio {
-    background-color: #eaeaea;
+    background-color: #fefae0;
     display: flex;
     flex-direction: column;
 }
@@ -137,19 +144,20 @@ ul li {
 }
 
 .footer {
-    background-color: #724796;
+    background-color: #d4a373;
     height: 30vh;
     display: flex;
     align-items: center;
+    border-radius: 5px;
 }
 
 .links {
     text-decoration: none;
-    color: white;
+    color: #faedcd;
 }
 
 .lista-footer li {
-    color: #FFF;
+    color: #faedcd;
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 16px;
